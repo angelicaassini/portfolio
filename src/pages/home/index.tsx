@@ -32,12 +32,14 @@ export const Home = (): JSX.Element => {
         <Container>
           <HeaderContent>
             <Text as="h1" type="heading1" color="grey5">
-              Criando experiências por meio da tecnologia{" "}
+              Desenvolvedora Fullstack{" "}
             </Text>
             <Text type="body1" color="grey6">
-              Sou estudante de programação na Kenzie Academy Brasil, participei
-              de diversos projetos resolvendo problemas de alto nível e
-              desenvolvendo habilidades
+              Sou estudante de programação na Kenzie Academy Brasil, formada num curso de mais de 2000 horas de duração
+              em que participei de diversos projetos individuais e em equipe resolvendo problemas de alta complexidade e
+              desenvolvendo habilidades lógicas. 
+              Também sou ex-engenheira eletricista em transição de carreira.
+              Falo inglês fluente.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" href="#projetos">
@@ -88,7 +90,7 @@ export const Home = (): JSX.Element => {
                 Projetos
               </Text>
               <Text as="h3" type="heading2" color="grey1">
-                Originalidade e{" "}
+                Criatividade e{" "}
                 <Text as="span" color="brand1" type="heading2">
                   dedicação
                 </Text>{" "}
