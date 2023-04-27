@@ -52,7 +52,7 @@ export const Project = (): JSX.Element => {
             css={{ marginBottom: "$3" }}
             color="grey1"
           >
-            {repository.name}
+            {repository.name.charAt(0).toUpperCase() + repository.name.slice(1)}
           </Text>
 
           {repository.language && (
@@ -70,7 +70,7 @@ export const Project = (): JSX.Element => {
             {repository.description}
           </Text>
           <ProjectLinks>
-            <ProjectLink target="_blank" href={repository.git_url}>
+            <ProjectLink target="_blank" href={`https://${repository.git_url.slice(6)}`}>
               <FaGithub /> Github Code
             </ProjectLink>
             {repository.homepage && (
